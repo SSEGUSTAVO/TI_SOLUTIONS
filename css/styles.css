@@ -328,7 +328,7 @@ body {
 /*Formato de anclas en elementos de tabla 2 de pie de página*/
 #footer #contact div a {
 	/*background: url(../images/icons.png) no-repeat;*/
-  background: url(https://github.com/SSEGUSTAVO/TI_SOLUTIONS/blob/228bae704fe94cb3c08234bbaaa94bf977b16b57/images/Imagen5.png) no-repeat;
+  	background: url("../images/Imagen5.png") no-repeat;
 	display: block;
 	float: left;
 	height: 36px;
