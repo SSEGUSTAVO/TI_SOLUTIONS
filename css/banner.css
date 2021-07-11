@@ -1,0 +1,194 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+#banner img {
+    width: 140%;
+}
+#banner .contenedor {
+    position: absolute;
+    display:inline-block;
+    padding-top: 20px;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+#banner h2 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: normal;
+}
+/*Marco de tabla*/
+#servicios{
+	/*background-color: #000A23;*/
+	background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    position: relative;
+	padding: 10px 10px;
+	margin: auto;    /*Margenes de la tabla principal*/
+    top: 120px;
+    left: 5px;
+    width: 93vw;
+    height: auto;
+    transform: translateY(0);
+}
+/*Formato de tabla principal*/
+#servicios ul {
+    column-count: 2;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#servicios ul li {
+    display: flex;
+    flex-wrap: wrap;
+    /*padding: 10px;*/
+    padding: auto;
+}
+#servicios ul img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+/*Formato de letra en descripcion de elementos de tabla principal*/
+#servicios ul li h3 {
+    font-size: 18px;
+	margin: 0;
+    font-weight: normal;
+	line-height: 30px; /*Interlineado*/
+  /*text-transform: uppercase;*/
+}
+/*Formato de letra en descripcion de elementos de tabla principal*/
+#servicios ul li h2 {
+    float: left;
+    color: #FFFFFF; /*Color*/
+	font-size: 18px; /*Tamaño de fuente*/
+	margin: 0; /*Margenes*/
+	line-height: 20px; /*Interlineado*/
+	padding: 10px;
+	text-align: center;  /*Alineacion de texto*/
+	text-transform: uppercase; /*Letra mayúscula*/
+    font-weight: normal;
+}
+/*Elemento de pre-seleccionado de lista principal*/
+#servicios ul li:hover {
+	background-color: #620031;
+	color: #ffffff;
+}
+/*Formato de primer tabla secundaria*/
+#servicios ul li.instalacion ul {
+	display: block;
+    column-count: 1;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 3;
+}
+#servicios ul li.instalacion:hover ul.uno {
+	left: 2%;
+    top: 102%;
+}
+/*Formato de segunda tabla secundaria*/
+#servicios ul li.armado ul {
+	display: block;
+    column-count: 1;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 3;
+}
+#servicios ul li.armado:hover ul.dos {
+	left: 2%;
+    top: 102%;
+}
+/*Formato de tercera tabla secundaria*/
+#servicios ul li.reparacion ul {
+	display: block;
+    column-count: 1;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 3;
+}
+#servicios ul li.reparacion:hover ul.tres {
+	left: 2%;
+    top: 102%;
+}
+/*Formato de cuarta tabla secundaria*/
+#servicios ul li.redes ul {
+	display: block;
+    column-count: 1;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 3;
+}
+#servicios ul li.redes:hover ul.cuatro {
+	left: 2%;
+    top: 102%;
+}
+/*Formato de quinta tabla secundaria*/
+#servicios ul li.servidores ul {
+	display: block;
+    column-count: 1;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 3;
+}
+#servicios ul li.servidores:hover ul.cinco {
+	left: 2%;
+    top: 102%;
+}
+/*Formato de sexta tabla secundaria*/
+#servicios ul li.electronicos ul {
+	display: block;
+    column-count: 1;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 3;
+}
+#servicios ul li.electronicos:hover ul.seis {
+	left: 2%;
+    top: 102%;
+}
+/*Formato de marco de tablas secundarias*/
+#servicios ul li ul li {
+	background-color: #620031; /*Color*/
+	color: #ffffff;  /*Color*/
+	display: block;  /*Ubicacion*/
+	margin: 0; /*Margenes*/
+	min-height: 35px;  /*Altura mínima*/
+}
+/*@media (min-width:480px) {
+    #banner {
+        height: 300px;
+        overflow: hidden;
+    }
+    #banner img {
+        height: auto;
+        
+    }
+}*/
